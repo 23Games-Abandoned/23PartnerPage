@@ -29,11 +29,8 @@
 
 		<div id="index" class="leaguegothic white page">
 			<div id="titlebox" class="f2 lghtgrey">
-				<div class="f5 white">Parallax.js</div>
-				The swankiest Javascript framework for elegantly sliding pages and parallaxing backgrounds. It'll make your monocle drop.
-				<iframe src="http://ghbtns.com/github-btn.html?user=stolksdorf&repo=parallaxjs&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="155px" height="30px"></iframe>
-				<iframe src="http://ghbtns.com/github-btn.html?user=stolksdorf&repo=parallaxjs&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="150px" height="30px"></iframe>
-				<iframe src="http://ghbtns.com/github-btn.html?user=stolksdorf&repo=parallaxjs&type=follow&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="195px" height="30px"></iframe>
+				<div class="f5 white">{owner}</div>
+				{description}
 			</div>
 		</div>
 
@@ -53,7 +50,7 @@
 		</div>
 
 		<div id="sandbox" class="leaguegothic white page">
-			<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2">PARALLAX.JS</div></a>
+			<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2">{owner}</div></a>
 
 			<div class="f0 center w750 pad">
 
@@ -81,13 +78,12 @@ Click to see it in action!</pre>
 		</div>
 
 		<div id="features" class="leaguegothic white page">
-			<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2 left">PARALLAX.JS</div></a>
+			<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2 left">{owner}</div></a>
 
 			<div id="content" class="black whitebg calibri f0 center w750 pad">
-				<h1>What is Parallax.js?</h1>
+				<h1>Kto to jest {owner}</h1>
 				<p>
-					Parallax.js is a nifty Javascript framework that allows you to easily add sliding page trasitions and parallaxing backgrounds to any project. <br>
-					Very light weight, very cool. Just like fezes.
+					{description}
 				</p>
 
 				<h1>Adding Pages</h1>

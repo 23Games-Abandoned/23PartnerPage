@@ -1,7 +1,11 @@
 <?php
 /**
- * Copyright 2015 potlewski
  * 23PartnerPage
+ *
+ * @author      Paweł Otlewski <otlet@jest.guru>
+ * @copyright   2015 PanOtlet
+ * @link        http://panotlet.tk/23PartnerPage
+ * @license     http://panotlet.tk/23PartnerPage/LICENSE
  */
 
 header('Content-Type: text/html; charset=UTF-8');
@@ -44,13 +48,13 @@ if ( ! is_dir($system_path))
 }
 
 /** @var string $theme */
-$theme  =   'content/theme/'.$style.'/';
+$config['tpl']   =   $theme  =   'content/theme/'.$style.'/';
 
 require_once BASEPATH.'core.php';
     $core   =   new core(BASEPATH);
     $layout =   new template($theme);
 
-/** @var array $fbfeed */
+/** @var array $fbfeed
 $fbfeed =   $core->fbfeed($fb,$token);
 
 foreach($fbfeed->data as $post){
@@ -58,7 +62,21 @@ foreach($fbfeed->data as $post){
     ';
 }
 
-$config['fbfeeds']  =   $posts;
+$config['fbfeeds']  =   $posts;*/
+
+/*
+switch ($_GET['p']){
+    case "index":
+        $layout->render($theme, 'index',$config);
+        break;
+    case "mail":
+        $mail=$_POST['mail'];
+        $layout->render($theme, 'index',$config);
+        $core->poczta($mail['mail'],$mail['mess'],$mail['nick'],$config['mail']);
+        break;
+    default:
+        $layout->render($theme, 'index',$config);
+}*/
 
 if (!isset($_GET['p']) || empty($_GET['p']) || !file_exists($theme.$_GET['p'])){
     $layout->render($theme, 'index',$config);

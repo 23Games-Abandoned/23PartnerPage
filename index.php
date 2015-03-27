@@ -60,8 +60,16 @@ foreach($fbfeed->data as $post){
 
 $config['fbfeeds']  =   $posts;
 
-if (!isset($_GET['p']) || !file_exists($theme.$_GET['p'])){
+if (!isset($_GET['p']) || empty($_GET['p']) || !file_exists($theme.$_GET['p'])){
     $layout->render($theme, 'index',$config);
 } else {
-    $layout->render($theme, $_GET['p'],$config);
+    switch($_GET['p']){
+        case "mail":
+            $mail=$_POST['mail'];
+            $layout->render($theme, 'index',$config);
+            $core->poczta($mail['mail'],$mail['mess'],$mail['nick'],$config['mail']);
+            break;
+        default:
+            $layout->render($theme, $_GET['p'],$config);
+    }
 }

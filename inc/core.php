@@ -16,4 +16,26 @@ class core {
         $result =   JsonHandler::decode($request);
         return $result;
     }
+
+    public function poczta($mail,$mess,$nick,$ownmail){
+
+        $naglowki = "Reply-to: ".$nick." <".$mail.">".PHP_EOL;
+        $naglowki .= "From: 23Games <biuro@23games.me>".PHP_EOL;
+        $naglowki .= "MIME-Version: 1.0".PHP_EOL;
+        $naglowki .= "Content-type: text/html; charset=utf-8".PHP_EOL;
+
+        $wiadomosc = '<html>
+           <head>
+              <title>Wiadomość ze strony 23Games</title>
+           </head>
+           <body>
+              <p>'.$mess.'</p>
+              <p>Autor wiadomości: '.$nick.' <'.$mail.'></p>
+           </body>
+           </html>';
+
+        if(mail($ownmail, 'Wiadomość ze strony partnerskiej 23Games', $wiadomosc, $naglowki))
+        {echo "<script>alert('Wiadomość wysłana poprawnie')</script>";}
+        else {echo "<script>alert('Wystąpił nieoczekiwany błąd')</script>";}
+    }
 }

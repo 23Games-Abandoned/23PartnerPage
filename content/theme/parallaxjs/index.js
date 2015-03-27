@@ -19,6 +19,7 @@ $(document).ready(function () {
 			.add($("#index"))
 			.add($("#boo"))
 			.add($("#sandbox"))
+			.add($("#bottom"))
 			.add($("#me"));
 
 	parallax.background = $("body");
@@ -35,10 +36,15 @@ $(document).ready(function () {
 		setRight("features", "Features");
 		setTop("sandbox", "SandBox");
 		setLeft("me","The Guy");
+		setBottom("bottom","bottom");
 	};
 
 	parallax.sandbox.onload=function(){
 		setBottom("index","Home");
+	};
+
+	parallax.bottom.onload=function(){
+		setTop("index","Home");
 	};
 
 	parallax.features.onload=function(){

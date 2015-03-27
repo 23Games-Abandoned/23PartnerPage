@@ -21,5 +21,6 @@ $config =   [
     'owner'         =>  'Kagaminium',
     'mail'          =>  'otlet@jest.guru',
     'description'   =>  'Tutaj jakiś opis',
+    'aboutme'       =>  'Hej, jestem Kagamonium, lubię małych chłopców.',
 ];
 

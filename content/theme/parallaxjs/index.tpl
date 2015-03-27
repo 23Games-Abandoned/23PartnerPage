@@ -5,7 +5,7 @@
 	<link rel="Stylesheet" type="text/css" href="{tpl}demo/libs/xo.css" />
 
 	<script type="text/javascript" src="{tpl}parallax.min.js"></script>
-	<script type="text/javascript" src="{tpl}demo/index.js"></script>
+	<script type="text/javascript" src="{tpl}/index.js"></script>
 	<script type="text/javascript" src="{tpl}demo/examples.js"></script>
 	<link rel="Stylesheet" type="text/css" href="{tpl}demo/index.css" />
 
@@ -50,6 +50,27 @@
 		</div>
 
 		<div id="sandbox" class="leaguegothic white page">
+			<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2">{owner}</div></a>
+
+			<div class="f0 center w750 pad">
+
+				<div class="f3">Examples</div>
+
+				<div id="fromLast" class="clickable f1">Returns you to the last page you were on</div>
+				<div id="fromCurrent" class="clickable f1">Alert from the current page</div>
+				<div id="fromRight" class="clickable f1">From the right slow</div>
+				<div id="fromTop" class="clickable f1">From the top with linear easing</div>
+				<div id="fromLeft" class="clickable f1">From the left with increased parallax</div>
+				<div id="fromBottom" class="clickable f1">From the bottom with an onload function</div>
+
+				<pre id = "codebox" class="black">Hover to see code.
+Click to see it in action!</pre>
+
+			</div>
+
+		</div>
+
+		<div id="bottom" class="leaguegothic white page">
 			<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2">{owner}</div></a>
 
 			<div class="f0 center w750 pad">

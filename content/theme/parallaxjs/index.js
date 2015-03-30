@@ -33,10 +33,10 @@ $(document).ready(function () {
 
 	//Setting up page navigation
 	parallax.index.onload=function(){
-		setRight("features", "Features");
-		setTop("sandbox", "SandBox");
-		setLeft("me","The Guy");
-		setBottom("bottom","bottom");
+		setRight("features", "Feed");
+		setTop("sandbox", "Live Stream");
+		setLeft("me","O mnie");
+		setBottom("bottom","Kontakt");
 	};
 
 	parallax.sandbox.onload=function(){

@@ -49,11 +49,11 @@ $(document).ready(function () {
 
 	parallax.features.onload=function(){
 		setLeft("index", "Home");
-		setRight("me", "The Guy");
+		setRight("me", "Feed");
 	};
 
 	parallax.me.onload=function(){
-		setLeft("features", "Features");
+		setLeft("features", "Feed");
 		setRight("index","Home");
 	};
 

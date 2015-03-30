@@ -14,6 +14,16 @@ define('tag',1);
 
 include ('config.php');
 
+$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+switch ($lang){
+    case "pl":
+        include("content/language/pl.lang.php");
+        break;
+    default:
+        include("content/language/en.lang.php");
+        break;
+}
+
 switch (ENVIRONMENT)
 {
     case 'dev':
@@ -64,30 +74,20 @@ foreach($fbfeed->data as $post){
 
 $config['fbfeeds']  =   $posts;*/
 
-/*
-switch ($_GET['p']){
-    case "index":
-        $layout->render($theme, 'index',$config);
-        break;
-    case "mail":
-        $mail=$_POST['mail'];
-        $layout->render($theme, 'index',$config);
-        $core->poczta($mail['mail'],$mail['mess'],$mail['nick'],$config['mail']);
-        break;
-    default:
-        $layout->render($theme, 'index',$config);
-}*/
-
-if (!isset($_GET['p']) || empty($_GET['p']) || !file_exists($theme.$_GET['p'])){
-    $layout->render($theme, 'index',$config);
+if (!isset($_GET['p']) || empty($_GET['p'])){
+        $layout->render($theme, 'index',$config, $lang);
 } else {
     switch($_GET['p']){
         case "mail":
             $mail=$_POST['mail'];
-            $layout->render($theme, 'index',$config);
+            $layout->render($theme, 'index',$config, $lang);
             $core->poczta($mail['mail'],$mail['mess'],$mail['nick'],$config['mail']);
             break;
         default:
-            $layout->render($theme, $_GET['p'],$config);
+            if (file_exists($theme.$_GET['p'].'.tpl')){
+                $layout->render($theme, $_GET['p'], $config, $lang);
+            } else {
+                $layout->render($theme, '404',$config, $lang);
+            }
     }
 }

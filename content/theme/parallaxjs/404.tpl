@@ -71,7 +71,7 @@ Click to see it in action!</pre>
 		</div>
 
 		<div id="bottom" class="leaguegothic white page">
-			<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2">^hello^ {owner}</div></a>
+			<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2">{owner} {siewo}</div></a>
 
 			<div class="f0 center w750 pad">
 

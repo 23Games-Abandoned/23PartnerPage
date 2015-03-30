@@ -6,6 +6,7 @@
 
 include_once(BASEPATH.'template.php');
 include_once(BASEPATH.'json.php');
+include_once('content/language/loader.php');
 
 class core {
     protected $url;

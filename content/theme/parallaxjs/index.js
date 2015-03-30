@@ -49,7 +49,7 @@ $(document).ready(function () {
 
 	parallax.features.onload=function(){
 		setLeft("index", "Home");
-		setRight("me", "Feed");
+		setRight("me", "O mnie");
 	};
 
 	parallax.me.onload=function(){

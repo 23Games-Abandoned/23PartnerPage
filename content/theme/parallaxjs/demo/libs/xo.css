@@ -1,8 +1,7 @@
-/* ----- RESET ----- */
+/* ----- RESET -----
 *{outline: 0;padding: 0;margin: 0;border: 0;}
 body,p,ul,ol,dl,textarea,input {font-family: 'LeagueGothic'; font-size:25px;}
 
-/* ----- FONTS ----- */
 @font-face { font-family: 'LeagueGothic';  src:url('../assets/LeagueGothic.otf'); }
 @font-face { font-family: 'Chunk';         src:url('fonts/Chunk.otf'); }
 @font-face { font-family: 'Raleway';       src:url('fonts/Raleway.otf'); }
@@ -11,7 +10,7 @@ body,p,ul,ol,dl,textarea,input {font-family: 'LeagueGothic'; font-size:25px;}
 .leaguegothic{font-family:'LeagueGothic'; }
 .chunk       {font-family:'Chunk'; }
 .raleway     {font-family:'Raleway'; }
-.sniglet     {font-family:'Sniglet'; }
+.sniglet     {font-family:'Sniglet'; }*/
 .helvetica   {font-family:"Helvetica Neue", Helvetica,Arial, sans-serif;}
 .calibri     {font-family:Calibri;}
 .code        {font-family:"Courier New",Courier,monospace;}

@@ -5,5 +5,6 @@
  */
 
 $lang   =   [
-    'hello' =>  'Witaj, jestem',
+    'hello'     =>  'Witaj, jestem',
+    'aboutme'   =>  'Lubię w dupkę'
 ];

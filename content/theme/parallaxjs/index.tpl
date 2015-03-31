@@ -40,12 +40,14 @@
 
 			<div class="right"><img src="{tpl}demo/assets/Classy Skaught.jpg" style="width:200px;"><br><span class="calibri f0">Me enjoying some fine chocolate milk.</span></div>
 
-			<h1>Hey, I'm Scott</h1>
+			<h1>Na imię mi Rafał inaczej znany jako "Kagami"</h1>
 
-			I like to hit the keyboard and make nifty things.<br>
-			I do hope you fine chaps enjoy Parallax.js as much as I do. <br> <br>
-			If you have any questions, compliments, or just built something super cool with it, I'd love to hear about it!<br>
-			Contact: <span style="color:#AE0000">scott.tolksdorf@gmail.com</span>
+			Skoro już nolife'uje no czemu nie streamować. Mam w życiu 26 level, gram od czasów Snesa,<br>
+			poprzez takie konsole jak PSX, PS2, PS3, Xbox, xboxa360, Dreamcasta (nawet 2 razy) Obecnie nie posiadam konsoli,<br>
+			podejrzewam że zmieni się to gdy zostanie zapowiedziane Gran Turismo 7<br>
+			Oglądam sporo anime, a i dobry film/serial obejrzę.<br>
+			Jak stream odpali to pierwszymi rzeczami na jakie uzbieram to 2 monitor,<br>
+			konkretna kamerka oraz w przyszłości drugi komputer do enkodowania streama.<br>
 			</div>
 		</div>
 

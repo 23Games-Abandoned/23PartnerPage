@@ -4,6 +4,11 @@
  * 23PartnerPage
  */
 
+if(!defined("tag"))
+{
+    die("Nie ma tak fajnie ziomek!");
+}
+
 class template {
 
     public $render;
@@ -19,10 +24,12 @@ class template {
             $this->render=str_replace("{".$t."}", $content, $this->render);
         }
         $this->render=preg_replace('({(.*?)})', "", $this->render);
+
         foreach($jezyk as $t => $content){
             $this->render=str_replace("^".$t."^", $content, $this->render);
         }
         $this->render=preg_replace('({(.*?)})', "", $this->render);
+
         echo $this->render;
     }
 

@@ -4,6 +4,11 @@
  * 23PartnerPage
  */
 
+if(!defined("tag"))
+{
+    die("Nie ma tak fajnie ziomek!");
+}
+
 include_once(BASEPATH.'template.php');
 include_once(BASEPATH.'json.php');
 

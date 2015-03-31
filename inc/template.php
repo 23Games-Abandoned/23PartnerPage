@@ -4,6 +4,11 @@
  * 23PartnerPage
  */
 
+if(!defined("tag"))
+{
+    die("Nie ma tak fajnie ziomek!");
+}
+
 class template {
 
     public $render;

@@ -38,10 +38,12 @@
 
 			<div class="w960 center" style="margin-top:50px;">
 
-			<div class="right"><img src="{tpl}demo/assets/Classy Skaught.jpg" style="width:200px;"><br><span class="calibri f0">Me enjoying some fine chocolate milk.</span></div>
+			<div class="right"><img {picture_path} style="width:200px;"><br><span class="calibri f0">{picture_text}</span></div>
 
-			<h1>Na imię mi Rafał inaczej znany jako "Kagami"</h1>
+			<h3>{aboutme}</h3>
+			<div id="siewo" class="calibri f1 center w850 pad">
 			{aboutme_content}
+		</div>
 			</div>
 		</div>
 

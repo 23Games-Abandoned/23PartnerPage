@@ -26,7 +26,7 @@ body{
 	overflow-y: scroll;
 	overflow-x: hidden;
 	background-image: url(assets/brushed_alu.png);
-	
+
 }
 
 .jscode{
@@ -47,7 +47,7 @@ p{
 
 #titlebox{
 	position:absolute;
-	left:40%;
+	left:10%;
 	top:100px;
 	width:650px;
 	height:500px;

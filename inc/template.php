@@ -14,7 +14,7 @@ class template {
     }
 
     public function render($style, $plik, $tablica, $jezyk){
-        $this->render=file_get_contents($style.$plik.".tpl");
+        $this->render=file_get_contents($style.$plik.".html");
         foreach($tablica as $t => $content){
             $this->render=str_replace("{".$t."}", $content, $this->render);
         }

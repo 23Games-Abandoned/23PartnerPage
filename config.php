@@ -22,5 +22,10 @@ $config =   [
     'mail'          =>  'otlet@jest.guru',
     'description'   =>  'Tutaj jakiś opis',
     'aboutme'       =>  'Hej, jestem Kagamonium, lubię małych chłopców.',
+    'aboutme_content' =>  "Skoro już nolife'uje no czemu nie streamować. Mam w życiu 26 level, gram od czasów Snesa,<br>
+                          poprzez takie konsole jak PSX, PS2, PS3, Xbox, xboxa360, Dreamcasta (nawet 2 razy) Obecnie nie posiadam konsoli,<br>
+                          podejrzewam że zmieni się to gdy zostanie zapowiedziane Gran Turismo 7<br>
+                          Oglądam sporo anime, a i dobry film/serial obejrzę.<br>
+                          Jak stream odpali to pierwszymi rzeczami na jakie uzbieram to 2 monitor,<br>
+                          konkretna kamerka oraz w przyszłości drugi komputer do enkodowania streama.<br>",
 ];
-

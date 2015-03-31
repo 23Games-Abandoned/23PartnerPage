@@ -41,13 +41,7 @@
 			<div class="right"><img src="{tpl}demo/assets/Classy Skaught.jpg" style="width:200px;"><br><span class="calibri f0">Me enjoying some fine chocolate milk.</span></div>
 
 			<h1>Na imię mi Rafał inaczej znany jako "Kagami"</h1>
-
-			Skoro już nolife'uje no czemu nie streamować. Mam w życiu 26 level, gram od czasów Snesa,<br>
-			poprzez takie konsole jak PSX, PS2, PS3, Xbox, xboxa360, Dreamcasta (nawet 2 razy) Obecnie nie posiadam konsoli,<br>
-			podejrzewam że zmieni się to gdy zostanie zapowiedziane Gran Turismo 7<br>
-			Oglądam sporo anime, a i dobry film/serial obejrzę.<br>
-			Jak stream odpali to pierwszymi rzeczami na jakie uzbieram to 2 monitor,<br>
-			konkretna kamerka oraz w przyszłości drugi komputer do enkodowania streama.<br>
+			{aboutme_content}
 			</div>
 		</div>
 

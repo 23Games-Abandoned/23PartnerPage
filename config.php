@@ -4,10 +4,7 @@
  * 23PartnerPage
  */
 
-if(!defined("tag"))
-{
-    die("Nie ma tak fajnie ziomek!");
-}
+if(!defined("tag")){die("Nie ma tak fajnie ziomek!");}
 
 //Konfiguracja zaawansowana
 define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'dev');
@@ -23,4 +20,3 @@ $config =   [
     'description'   =>  'Tutaj jakiś opis',
     'aboutme'       =>  'Hej, jestem Kagamonium, lubię małych chłopców.',
 ];
-

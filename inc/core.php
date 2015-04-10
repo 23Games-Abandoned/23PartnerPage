@@ -46,10 +46,8 @@ class core {
 
     public function twitch($channel_name){
         return '
-<table>
-    <tbody>
-        <tr width="100%" height="100%">
-            <td width="70%" height="100%">
+          <div class="f0 center w1000 pad">
+            <div class="f0 center w700 pad">
                 <object bgcolor="#000000" data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" height="100%" type="application/x-shockwave-flash" width="100%">
                     <param name="allowFullScreen" value="true" />
                     <param name="allowNetworking" value="all" />
@@ -57,13 +55,11 @@ class core {
                     <param name="movie" value="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" />
                     <param name="flashvars" value="channel='.$channel_name.'&auto_play=true&start_volume=25" />
                 </object>
-            </td>
-            <td width="30%" height="100%">
+              </div>
+            <div class="f0 center w200 pad">
                 <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/'.$channel_name.'/chat" height="100%"  width="100%"></iframe>
-            </td>
-        </tr>
-    </tbody>
-</table>
+            </div>
+          </div>
 ';
 
     }

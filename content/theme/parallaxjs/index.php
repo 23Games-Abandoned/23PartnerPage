@@ -51,7 +51,7 @@
 
 			<a class="noanchor" href="#"><div id="logo" class="f2">Live Stream</div></a>
 
-			<div class="f0 center w1280 h720 pad">
+			<div class="f0 center w1280 pad">
 
 				{twitch_player}
 

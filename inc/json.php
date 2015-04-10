@@ -8,10 +8,7 @@
  * @license     http://panotlet.tk/23PartnerPage/LICENSE
  */
 
-if(!defined("tag"))
-{
-    die("Nie ma tak fajnie ziomek!");
-}
+if(!defined("tag")){die("Nie ma tak fajnie ziomek!");}
 
 class JsonHandler {
 

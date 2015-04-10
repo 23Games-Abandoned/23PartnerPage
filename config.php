@@ -4,37 +4,16 @@
  * 23PartnerPage
  */
 
-if(!defined("tag"))
-{
-    die("Nie ma tak fajnie ziomek!");
-}
+if(!defined("tag")){die("Nie ma tak fajnie ziomek!");}
 
 //Konfiguracja zaawansowana
 define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'dev');
 $system_path    = 'inc';
-$twitch_player  =   <<<EOF
-                            <object bgcolor="#000000"
-                                    data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf"
-                                    height="75%"
-                                    type="application/x-shockwave-flash"
-                                    width="100%"
-                                    >
-                              <param name="allowFullScreen"
-                                      value="true" />
-                              <param name="allowNetworking"
-                                      value="all" />
-                              <param name="allowScriptAccess"
-                                      value="always" />
-                              <param name="movie"
-                                      value="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" />
-                              <param name="flashvars"
-                                      value="channel=Kagaminium&auto_play=true&start_volume=25" />
-                            </object>
-EOF;
 
 //Konfiguracja podstawowa
 $style  =   'parallaxjs';
 $fb     =   "Kagaminium";
+$twitch =   "Kagaminium";
 $token  =   "CAANtbEzcjRUBAOk4G6vwi5ZCZCqTjsF5XZCrZAWKuvSf1enmINRhKKs6hNoXw22fyh1Jv7h7qkk4E1BUtYiHyO36Ou1Y7jxcK5ZAnsZCG8Wm7Be5a0vIKC2ZB3hHm7dVHGLIPScPs6CLjZAEYTEPwfljHewmR1eeDqpksFChL4tZAKavIWksdZCMvrE0dpDBHolicZBCZAGltyZCBOTZBxv2wf3Q4KewsKoE6y1CIZD";
 $config =   [
     'owner'             =>  'Kagaminium',
@@ -50,4 +29,8 @@ $config =   [
     'picture_path'      =>  'src="{tpl}demo/assets/Classy Skaught.jpg"',
     'picture_text'      =>  'To jest podpis pod zdjęciem.',
     'twitch_player'     =>  $twitch_player,
+    'owner'         =>  'Kagaminium',
+    'mail'          =>  'otlet@jest.guru',
+    'description'   =>  'Tutaj jakiś opis',
+    'aboutme'       =>  'Hej, jestem Kagamonium, lubię małych chłopców.',
 ];

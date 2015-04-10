@@ -43,4 +43,28 @@ class core {
         {echo "<script>alert('Wiadomość wysłana poprawnie')</script>";}
         else {echo "<script>alert('Wystąpił nieoczekiwany błąd')</script>";}
     }
+
+    public function twitch($channel_name){
+        return '
+<table>
+    <tbody>
+        <tr width="100%" height="100%">
+            <td width="70%" height="100%">
+                <object bgcolor="#000000" data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" height="100%" type="application/x-shockwave-flash" width="100%">
+                    <param name="allowFullScreen" value="true" />
+                    <param name="allowNetworking" value="all" />
+                    <param name="allowScriptAccess" value="always" />
+                    <param name="movie" value="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" />
+                    <param name="flashvars" value="channel='.$channel_name.'&auto_play=true&start_volume=25" />
+                </object>
+            </td>
+            <td width="30%" height="100%">
+                <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/'.$channel_name.'/chat" height="100%"  width="100%"></iframe>
+            </td>
+        </tr>
+    </tbody>
+</table>
+';
+
+    }
 }

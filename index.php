@@ -57,12 +57,13 @@ if ( ! is_dir($system_path))
     exit(3);
 }
 
-/** @var string $theme */
-$config['tpl']   =   $theme  =   'content/theme/'.$style.'/';
-
 require_once BASEPATH.'core.php';
     $core   =   new core(BASEPATH);
     $layout =   new template($theme);
+
+/** @var string $theme */
+$config['tpl']   =   $theme  =   'content/theme/'.$style.'/';
+$config['twitch_player']    =   $core->twitch($twitch);
 
 /** @var array $fbfeed
 $fbfeed =   $core->fbfeed($fb,$token);

@@ -48,21 +48,12 @@
 		</div>
 
 		<div id="sandbox" class="leaguegothic white page">
-<<<<<<< HEAD
+
 			<a class="noanchor" href="#"><div id="logo" class="f2">Live Stream</div></a>
 
-			<div class="f0 center w750 pad">
+			<div class="f0 center w1280 h720 pad">
 
 				{twitch_player}
-=======
-			<div id="logo" class="f2">{owner}</div>
-
-			<div class="f0 center w750 pad">
-
-				<div class="f3">Tu powinien być stream :P</div>
-
-				
->>>>>>> origin/Design
 
 			</div>
 

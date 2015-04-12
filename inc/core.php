@@ -45,8 +45,8 @@ class core {
     }
 
     public function twitch($channel_name){
-        return '<center>
-          <div class="pad">
+        return '
+          <div class="pad" style="text-align: center">
                 <object bgcolor="#000000" data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" type="application/x-shockwave-flash" right height="80%" width="70%">
                     <param name="allowFullScreen" value="true" />
                     <param name="allowNetworking" value="all" />
@@ -56,7 +56,6 @@ class core {
                 </object>
                 <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/'.$channel_name.'/chat" left height="80%" width="20%"></iframe>
           </div>
-          </center>
 ';
 
     }

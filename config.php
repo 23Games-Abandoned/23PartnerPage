@@ -28,9 +28,4 @@ $config =   [
                               konkretna kamerka oraz w przyszłości drugi komputer do enkodowania streama.",
     'picture_path'      =>  'src="{tpl}demo/assets/Classy Skaught.jpg"',
     'picture_text'      =>  'To jest podpis pod zdjęciem.',
-    'twitch_player'     =>  $twitch_player,
-    'owner'         =>  'Kagaminium',
-    'mail'          =>  'otlet@jest.guru',
-    'description'   =>  'Tutaj jakiś opis',
-    'aboutme'       =>  'Hej, jestem Kagamonium, lubię małych chłopców.',
 ];

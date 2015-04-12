@@ -62,7 +62,7 @@ require_once BASEPATH.'core.php';
     $layout =   new template($theme);
 
 /** @var string $theme */
-$config['tpl']   =   $theme  =   'content/theme/'.$style.'/';
+$config['tpl']              =   $theme  =   'content/theme/'.$style.'/';
 $config['twitch_player']    =   $core->twitch($twitch);
 
 /** @var array $fbfeed

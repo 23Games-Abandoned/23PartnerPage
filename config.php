@@ -7,14 +7,14 @@
 if(!defined("tag")){die("Nie ma tak fajnie ziomek!");}
 
 //Konfiguracja zaawansowana
-define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'dev');
+define('ENVIRONMENT', 'dev');
 $system_path    = 'inc';
 
 //Konfiguracja podstawowa
 $style  =   'parallaxjs';
 $fb     =   "Kagaminium";
 $twitch =   "Kagaminium";
-$token  =   "CAANtbEzcjRUBAOk4G6vwi5ZCZCqTjsF5XZCrZAWKuvSf1enmINRhKKs6hNoXw22fyh1Jv7h7qkk4E1BUtYiHyO36Ou1Y7jxcK5ZAnsZCG8Wm7Be5a0vIKC2ZB3hHm7dVHGLIPScPs6CLjZAEYTEPwfljHewmR1eeDqpksFChL4tZAKavIWksdZCMvrE0dpDBHolicZBCZAGltyZCBOTZBxv2wf3Q4KewsKoE6y1CIZD";
+$token  =   "CAACEdEose0cBAA2FeNNdsiXX40rA1csMwVNKb6PUTb8mkjD0BOa66dSCeTjVFZCkyW1rceJOGWNR2lJHWX4s9MAPlZBUZAuZBLrgt3DwHpH1soyHOZCa0HYxOWCKz9ScmqUQOBRtOyyWffWyeyR11WBslQOYT0QwwvW7LENAN4zzYq0AHb9PclSt7TUsIv9hV49g2JnoxuHoNMcbqeFugravUSkzSpNgZD";
 $config =   [
     'owner'             =>  'Kagaminium',
     'mail'              =>  'otlet@jest.guru',

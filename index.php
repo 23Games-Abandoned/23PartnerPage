@@ -65,7 +65,7 @@ require_once BASEPATH.'core.php';
 $config['tpl']              =   $theme  =   'content/theme/'.$style.'/';
 $config['twitch_player']    =   $core->twitch($twitch);
 
-/** @var array $fbfeed
+/** @var array $fbfeed */
 $fbfeed =   $core->fbfeed($fb,$token);
 
 foreach($fbfeed->data as $post){
@@ -73,7 +73,7 @@ foreach($fbfeed->data as $post){
     ';
 }
 
-$config['fbfeeds']  =   $posts;*/
+$config['fbfeeds']  =   $posts;
 
 if (!isset($_GET['p']) || empty($_GET['p'])){
         $layout->render($theme, 'index',$config, $lang);

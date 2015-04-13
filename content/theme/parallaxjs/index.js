@@ -136,6 +136,6 @@ $(document).ready(function () {
 
 
 	$(".control").hide();
-	parallax.index.show();
+	parallax.Home.show();
 
 });

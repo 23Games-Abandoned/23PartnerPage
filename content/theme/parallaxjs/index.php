@@ -2,10 +2,9 @@
 
 <head>
 
-	<!-- Tytuł strony -->
 	<title>{owner}</title>
 
-	<!-- Ładowanie skryptów -->
+
 	<script type="text/javascript" src="{tpl}demo/libs/jq.js"></script>
 	<link rel="Stylesheet" type="text/css" href="{tpl}demo/libs/xo.css" />
 	<script type="text/javascript" src="{tpl}parallax.min.js"></script>
@@ -14,7 +13,7 @@
 	<link rel="Stylesheet" type="text/css" href="{tpl}demo/index.css" />
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-34546066-1']);
+	  _gaq.push(['_setAccount', '{google-analitics}']);
 	  _gaq.push(['_trackPageview']);
 	  (function() {
 	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -32,7 +31,7 @@
 		<div id="Home" class="leaguegothic white page">
 			<div id="titlebox" class="f2 lghtgrey">
 				<div class="f5 white">{owner}</div>
-				{description}
+				^description^
 			</div>
 		</div>
 
@@ -40,9 +39,9 @@
 		<div id="Aboutme" class="leaguegothic white page f2">
 			<div class="w960 center" style="margin-top:50px;">
 				<div class="right"><img {picture_path} style="width:200px;"><br><span class="calibri f0">{picture_text}</span></div>
-				<h3>{aboutme}</h3>
+				<h3>^aboutme^</h3>
 				<div id="siewo" class="calibri f1 center w850 pad">
-					{aboutme_content}
+					^aboutme_content^
 				</div>
 			</div>
 		</div>
@@ -50,7 +49,7 @@
 		<!-- Facebook - div boczny (prawy) -->
 		<div id="FBfeed" class="leaguegothic white page">
 			<div id="content" class="black whitebg calibri f0 center w750 pad">
-				<h1>Kto to jest {owner}</h1>
+				<h1>^fbfeeds^</h1>
 				<p>
 					{fbfeeds}
 				</p>

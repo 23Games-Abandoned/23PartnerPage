@@ -17,11 +17,10 @@ require BASEPATH.'siewo.php';
 Siewo::Autoloader(BASEPATH);
 $core   =   new Siewo\core(BASEPATH);
 $layout =   new Siewo\template($theme);
-$xml    =   new xml();
 
 $config['tpl']              =   $theme  =   'content/theme/'.$style.'/';
 $config['twitch_player']    =   $core->twitch($twitch);
-$config['fbfeeds']          =   $xml->getRSS('https://www.facebook.com/feeds/page.php?format=rss20&id='.$fb_id);
+$config['fbfeeds']          =   xml::getRSS('https://www.facebook.com/feeds/page.php?format=rss20&id='.$fb_id);
 
 if (!isset($_GET['p']) || empty($_GET['p'])){
         $layout->render($theme, 'index',$config, $lang);

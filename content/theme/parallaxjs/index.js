@@ -15,12 +15,12 @@ $(document).ready(function () {
 		}
 	});
 
-	parallax.add($("#features"))//fbfeed
-			.add($("#index"))//home
+	parallax.add($("#FBfeed"))//fbfeed
+			.add($("#Home"))//home
 			.add($("#boo"))
-			.add($("#sandbox"))//live stream
-			.add($("#bottom"))//no idea
-			.add($("#me"));//about me
+			.add($("#Twitch"))//live stream
+			.add($("#Bottom"))//no idea
+			.add($("#Aboutme"));//about me
 
 	parallax.background = $("body");
 

@@ -29,7 +29,7 @@
 	<div class="container">
 
 		<!-- Index - div startowy -->
-		<div id="index" class="leaguegothic white page">
+		<div id="Home" class="leaguegothic white page">
 			<div id="titlebox" class="f2 lghtgrey">
 				<div class="f5 white">{owner}</div>
 				{description}
@@ -37,7 +37,7 @@
 		</div>
 
 		<!-- O mnie - div boczny (lewy) -->
-		<div id="me" class="leaguegothic white page f2">
+		<div id="Aboutme" class="leaguegothic white page f2">
 			<div class="w960 center" style="margin-top:50px;">
 				<div class="right"><img {picture_path} style="width:200px;"><br><span class="calibri f0">{picture_text}</span></div>
 				<h3>{aboutme}</h3>
@@ -48,7 +48,7 @@
 		</div>
 
 		<!-- Facebook - div boczny (prawy) -->
-		<div id="features" class="leaguegothic white page">
+		<div id="FBfeed" class="leaguegothic white page">
 			<div id="content" class="black whitebg calibri f0 center w750 pad">
 				<h1>Kto to jest {owner}</h1>
 				<p>
@@ -58,7 +58,7 @@
 		</div>
 
 		<!-- Twitch (Live Stream) - div górny -->
-		<div id="sandbox" class="leaguegothic white page">
+		<div id="Twitch" class="leaguegothic white page">
 			<a class="noanchor" href="#"><div id="logo" class="f2">Live Stream</div></a>
 			<div class="f0 center w1280 pad">
 				{twitch_player}
@@ -66,7 +66,7 @@
 		</div>
 
 		<!-- Brak treści - div dolny -->
-		<div id="bottom" class="leaguegothic white page">
+		<div id="Bottom" class="leaguegothic white page">
 			<div id="logo" class="f2">^hello^ {owner}</div></a>
 			<div class="f0 center w750 pad">
 

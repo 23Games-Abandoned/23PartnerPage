@@ -33,15 +33,15 @@ class core {
 
     public function twitch($channel_name){
         return '
-          <div class="pad" style="text-align: center;position: relative;  top: 50%;  transform: translateY(15%);">
-                <object bgcolor="#000000" data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" type="application/x-shockwave-flash" right height="60%" width="50%">
+          <div class="pad" style="text-align: center;position: relative;  top: 50%;  transform: translateY(10%);">
+                <object bgcolor="#000000" data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" type="application/x-shockwave-flash" right height="70%" width="50%">
                     <param name="allowFullScreen" value="true" />
                     <param name="allowNetworking" value="all" />
                     <param name="allowScriptAccess" value="always" />
                     <param name="movie" value="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" />
                     <param name="flashvars" value="channel='.$channel_name.'&auto_play=true&start_volume=25" />
                 </object>
-                <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/'.$channel_name.'/chat" left height="60%" width="30%"></iframe>
+                <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/'.$channel_name.'/chat" left height="70%" width="30%"></iframe>
           </div>
 ';
 

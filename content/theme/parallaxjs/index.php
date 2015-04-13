@@ -25,6 +25,16 @@
 </head>
 
 <body class="background">
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.3&appId=364701270267576";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
 	<div class="container">
 
 		<!-- Index - div startowy -->
@@ -53,6 +63,7 @@
 				<p>
 					{fbfeeds}
 				</p>
+                <div class="fb-comments" data-href="http://kagaminium.23games.me" data-width="100%" data-numposts="10" data-colorscheme="dark"></div>
 			</div>
 		</div>
 

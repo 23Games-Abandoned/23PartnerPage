@@ -34,7 +34,7 @@ class core {
     public function twitch($channel_name){
         return '
           <div class="pad" style="text-align: center">
-                <object bgcolor="#000000" data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" type="application/x-shockwave-flash" right height="80%" width="70%">
+                <object bgcolor="#000000" data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" type="application/x-shockwave-flash" right height="80%" width="60%">
                     <param name="allowFullScreen" value="true" />
                     <param name="allowNetworking" value="all" />
                     <param name="allowScriptAccess" value="always" />

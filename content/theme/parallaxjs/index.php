@@ -86,12 +86,12 @@
 	<!-- Nawigacja -->
 	<div id="leftControl" class="control">
 		<img id="leftArrow" class="arrow left" style="width:60px" src="{tpl}demo/assets/arrowleft2.png"></img>
-		<div id="leftText" class="dirText" style="float:right"> Test</div>
+		<div id="leftText" class="dirText" style="float:left"> Test</div>
 	</div>
 
 	<div id="rightControl" class="control">
 		<img id="rightArrow" class="arrow right" style="width:60px" src="{tpl}demo/assets/arrowright2.png"></img>
-		<div id="rightText" class="dirText" style="float:left"> Test</div>
+		<div id="rightText" class="dirText" style="float:right"> Test</div>
 	</div>
 
 	<div id="topControl" class="control center" style="width:145px;left:45%;">

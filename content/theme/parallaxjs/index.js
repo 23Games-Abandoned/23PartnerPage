@@ -36,7 +36,7 @@ $(document).ready(function () {
 		setRight("FBfeed", "FBfeed");
 		setTop("Twitch", "Live Stream");
 		setLeft("Aboutme","O mnie");
-		setBottom("bottom","Kontakt");
+		setBottom("Bottom","Kontakt");
 	};
 
 	parallax.Twitch.onload=function(){

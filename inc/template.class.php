@@ -4,15 +4,12 @@
  * 23PartnerPage
  */
 
-if(!defined("tag"))
-{
-    die("Nie ma tak fajnie ziomek!");
-}
+namespace Siewo;
 
 class template {
 
-    public $render;
-    public $style;
+    protected $render;
+    protected $style;
 
     public function __contruct($theme){
         $style=$theme;

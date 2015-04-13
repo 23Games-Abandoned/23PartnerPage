@@ -13,8 +13,8 @@ $system_path    = 'inc';
 //Konfiguracja podstawowa
 $style  =   'parallaxjs';
 $fb     =   "Kagaminium";
+$fb_id  =   "1418223085139877";
 $twitch =   "Kagaminium";
-$token  =   "CAACEdEose0cBAA2FeNNdsiXX40rA1csMwVNKb6PUTb8mkjD0BOa66dSCeTjVFZCkyW1rceJOGWNR2lJHWX4s9MAPlZBUZAuZBLrgt3DwHpH1soyHOZCa0HYxOWCKz9ScmqUQOBRtOyyWffWyeyR11WBslQOYT0QwwvW7LENAN4zzYq0AHb9PclSt7TUsIv9hV49g2JnoxuHoNMcbqeFugravUSkzSpNgZD";
 $config =   [
     'owner'             =>  'Kagaminium',
     'mail'              =>  'otlet@jest.guru',

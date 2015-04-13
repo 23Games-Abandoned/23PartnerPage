@@ -4,23 +4,10 @@
  * 23PartnerPage
  */
 
-if(!defined("tag"))
-{
-    die("Nie ma tak fajnie ziomek!");
-}
-
-include_once(BASEPATH.'template.php');
-include_once(BASEPATH.'json.php');
+namespace Siewo;
 
 class core {
     protected $url;
-
-    public static function fbfeed($page_id,$token){
-        $url    =   "https://graph.facebook.com/".$page_id."/posts?locale=pl_PL&access_token=".$token;
-        $request=   file_get_contents($url);
-        $result =   JsonHandler::decode($request);
-        return $result;
-    }
 
     public function poczta($mail,$mess,$nick,$ownmail){
 

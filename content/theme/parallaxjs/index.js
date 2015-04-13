@@ -33,30 +33,30 @@ $(document).ready(function () {
 
 	//Setting up page navigation
 	parallax.Home.onload=function(){
-		setRight("features", "Feed");
-		setTop("sandbox", "Live Stream");
-		setLeft("me","O mnie");
+		setRight("FBfeed", "FBfeed");
+		setTop("Twitch", "Live Stream");
+		setLeft("Aboutme","O mnie");
 		setBottom("bottom","Kontakt");
 	};
 
 	parallax.Twitch.onload=function(){
-		setTop("index","Home");
-		setBottom("index","Home");
+		setTop("Bottom","Bottom");
+		setBottom("Home","Home");
 	};
 
 	parallax.Bottom.onload=function(){
-		setTop("index","Home");
-		setBottom("index","Home");
+		setTop("Home","Home");
+		setBottom("Twitch","Home");
 	};
 
 	parallax.FBfeed.onload=function(){
-		setLeft("index", "Home");
-		setRight("me", "O mnie");
+		setLeft("Home", "Home");
+		setRight("Aboutme", "O mnie");
 	};
 
 	parallax.Aboutme.onload=function(){
-		setLeft("features", "Feed");
-		setRight("index","Home");
+		setLeft("FBfeed", "FBfeed");
+		setRight("Home","Home");
 	};
 
 

@@ -40,11 +40,13 @@ $(document).ready(function () {
 	};
 
 	parallax.sandbox.onload=function(){
+		setTop("index","Home");
 		setBottom("index","Home");
 	};
 
 	parallax.bottom.onload=function(){
 		setTop("index","Home");
+		setBottom("index","Home");
 	};
 
 	parallax.features.onload=function(){

@@ -32,29 +32,29 @@ $(document).ready(function () {
 
 
 	//Setting up page navigation
-	parallax.index.onload=function(){
+	parallax.Home.onload=function(){
 		setRight("features", "Feed");
 		setTop("sandbox", "Live Stream");
 		setLeft("me","O mnie");
 		setBottom("bottom","Kontakt");
 	};
 
-	parallax.sandbox.onload=function(){
+	parallax.Twitch.onload=function(){
 		setTop("index","Home");
 		setBottom("index","Home");
 	};
 
-	parallax.bottom.onload=function(){
+	parallax.Bottom.onload=function(){
 		setTop("index","Home");
 		setBottom("index","Home");
 	};
 
-	parallax.features.onload=function(){
+	parallax.FBfeed.onload=function(){
 		setLeft("index", "Home");
 		setRight("me", "O mnie");
 	};
 
-	parallax.me.onload=function(){
+	parallax.Aboutme.onload=function(){
 		setLeft("features", "Feed");
 		setRight("index","Home");
 	};

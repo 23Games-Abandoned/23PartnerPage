@@ -33,7 +33,7 @@ class core {
 
     public function twitch($channel_name){
         return '
-          <div class="pad" style="text-align: center">
+          <div class="pad" style="text-align: center;position: relative;  top: 50%;  transform: translateY(15%);">
                 <object bgcolor="#000000" data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" type="application/x-shockwave-flash" right height="60%" width="50%">
                     <param name="allowFullScreen" value="true" />
                     <param name="allowNetworking" value="all" />

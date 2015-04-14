@@ -10,6 +10,7 @@ class Siewo{
         Siewo::loader($path,'json');
         Siewo::loader($path,'template');
         Siewo::loader($path,'xml');
+        Siewo::loader($path,'curl');
     }
 
     static function loader($path,$class){

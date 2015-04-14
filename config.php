@@ -7,7 +7,7 @@
 if(!defined("tag")){die("Nie ma tak fajnie ziomek!");}
 
 //Konfiguracja zaawansowana
-define('ENVIRONMENT', 'test');
+define('ENVIRONMENT', 'dev');
 $system_path    = 'inc';
 
 //Konfiguracja podstawowa

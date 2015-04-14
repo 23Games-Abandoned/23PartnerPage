@@ -40,13 +40,13 @@ $(document).ready(function () {
 	};
 
 	parallax.Twitch.onload=function(){
-		setTop("Bottom","Bottom");
+		setTop("Bottom","Kontakt");
 		setBottom("Home","Home");
 	};
 
 	parallax.Bottom.onload=function(){
 		setTop("Home","Home");
-		setBottom("Twitch","Home");
+		setBottom("Twitch","Live Stream");
 	};
 
 	parallax.FBfeed.onload=function(){
